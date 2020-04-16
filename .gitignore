@@ -1,0 +1,25 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea/workspace.xml
+.idea
+*.iml
+target
+spark-warehouse
+test
+metastore_db
+derby.log
+###下面是我在网上找的 以后可能会有用
+     # Compiled class file
+     *.class
+     # Package Files #
+     *.jar
+     *.war
+     *.ear
+     *.zip
+     *.tar.gz
+     *.rar
+     # Log file
+     *.log
