@@ -1,14 +1,20 @@
 package com.atguigu.ct.common.bean;
 
-public class Data implements Val{
+public abstract class Data implements Val{
 
     public String content;
 
     public void setValue(String value){
         content=value;
     }
+
     @Override
-    public Object value() {
+    public String getValue() {
         return content;
+    }
+
+    @Override
+    public void setValue(Object val) {
+        content=(String) val;
     }
 }

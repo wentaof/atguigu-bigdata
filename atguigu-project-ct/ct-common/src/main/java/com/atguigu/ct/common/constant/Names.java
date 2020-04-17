@@ -13,8 +13,14 @@ public enum Names implements Val {
         this.name=name;
     }
 
+
     @Override
-    public String value() {
+    public Object getValue() {
         return name;
+    }
+
+    @Override
+    public void setValue(Object val) {
+        name=val.toString();
     }
 }
