@@ -6,7 +6,9 @@ import com.atguigu.ct.common.bean.Val;
  * 名称常量枚举类
  */
 public enum Names implements Val {
-    NAMESPACE("ct");
+    NAMESPACE("ct"),
+    TimePartten("yyyyMMddHHmmss")
+    ;
 
     private String name;
     Names(String name) {
@@ -15,7 +17,7 @@ public enum Names implements Val {
 
 
     @Override
-    public Object getValue() {
+    public String getValue() {
         return name;
     }
 

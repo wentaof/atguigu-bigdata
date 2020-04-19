@@ -14,8 +14,10 @@ public class Bootstrap {
     public static void main(String[] args) throws IOException {
         //构建生产者对象
         Producer producer = new LocalFileProducer();
-        producer.setIn(new LocalFileDataIn("E:\\data\\baiduyundownload\\尚学堂\\01\\2.资料\\辅助文档\\contact.log"));
-        producer.setOut(new LocalFileDataOut("E:\\data\\baiduyundownload\\尚学堂\\01\\2.资料\\辅助文档\\call.log"));
+//        producer.setIn(new LocalFileDataIn("E:\\data\\baiduyundownload\\尚学堂\\01\\2.资料\\辅助文档\\contact.log"));
+//        producer.setOut(new LocalFileDataOut("E:\\data\\baiduyundownload\\尚学堂\\01\\2.资料\\辅助文档\\call.log"));
+
+
         //生产数据
         producer.produce();
         //关闭生产者对象
